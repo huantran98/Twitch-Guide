@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.header-image {
+    height: 500px;
+    width: auto;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.header-title {
+    display: block;
+    font-family: Quicksand, Arial;
+    color: white;
+    text-align: center;
+    line-height: 0.8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    background-color: rgba(0,0,0,0.35);
+    border-radius: 10px;
+}
+
+.header-title h1 {
+    font-weight: bold;
+}
+.header-title h4 {
+    font-weight: lighter;
+}
+
+#portrait{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid rgb(117, 117, 117);
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+
